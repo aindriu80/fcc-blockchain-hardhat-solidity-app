@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/media/Feidhmchláir/Courses/FreeCodeCamp/fcc-blockchain-hardhat-solidity-app/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1660932041566,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/media/Feidhmchláir/Courses/FreeCodeCamp/fcc-blockchain-hardhat-solidity-app/contracts/SimpleStorage.sol": {
+      "lastModificationDate": 1661005436851,
+      "contentHash": "e496a51b3d96bc9db9cd70435d334d4c",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.8"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
+    }
+  }
+}
