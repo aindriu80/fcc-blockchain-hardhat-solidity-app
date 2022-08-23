@@ -16,6 +16,11 @@ module.exports = {
             accounts: [PRIVATE_KEY],
             chainId: 4,
         },
+        localhost: {
+            url: "http://127.0.0.1:8545",
+            // accounts - already placed by hardhat
+            chainId: 31337,
+        },
     },
     solidity: "0.8.8",
     etherscan: {
