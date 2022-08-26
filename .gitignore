@@ -1,4 +1,7 @@
 node_modules
+coverage
+cache
+artifacts
 bin
 .env
 .encryptedKey.json

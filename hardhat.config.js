@@ -3,6 +3,7 @@ require("dotenv").config()
 require("@nomiclabs/hardhat-etherscan")
 require("./tasks/block-number")
 require("hardhat-gas-reporter")
+require("solidity-coverage")
 
 /** @type import('hardhat/config').HardhatUserConfig */
 const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL || "https://eth-rinkbey/"
