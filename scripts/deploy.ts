@@ -1,5 +1,5 @@
 // imports
-const { ethers, run, network } = require("hardhat")
+import { ethers, run, network } from "hardhat"
 
 // async main
 async function main() {
@@ -25,18 +25,17 @@ async function main() {
     await transactionResponse.wait(1)
     const updatedValue = await simpleStorage.retrieve()
     console.log(`Updated Value is: ${updatedValue}`)
-
 }
 
 // verify
-async function verify(contractAddress, args) {
+async function verify(contractAddress: string, args: any[]) {
     console.log("Verifying contract...")
     try {
         await run("verify:verify", {
             address: contractAddress,
             constructorArguments: args,
         })
-    } catch (err) {
+    } catch (err: any) {
         if (err.message.toLowerCase().includes("already verified")) {
             console.log("Already verified")
         } else {

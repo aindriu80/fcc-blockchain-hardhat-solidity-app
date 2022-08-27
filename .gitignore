@@ -5,3 +5,5 @@ artifacts
 bin
 .env
 .encryptedKey.json
+typechain
+typechain-types
